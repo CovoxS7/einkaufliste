@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Einkaufliste 1.0</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+
+        <div class="row-1">
+            <header>
+                <h1>Einkaufliste</h1>
+            </header>
+        </div>
+
+        <div class="row-2">
+            <form id="eingabeleiste">
+                <input type="text" placeholder="Produkt" name="eingabe_produkt" id="eingabe_produkt">
+                <input type="text" name="eingabe_menge" id="eingabe_menge" value="1">  
+                <select id="eingabe_einheit">
+                    <option value="Stk">Stk</option>
+                    <option value="kg">Kg</option>
+                    <option value="g">g</option>
+                    <option value="l">l</option>
+                    <option value="ml">ml</option>
+                </select>              
+                <button type="submit" id="eingabe_button">Hinzufügen</button>
+            </form>
+        </div>
+
+        <div class="row-3">
+            <div class="einkaufsliste">
+                <ul>
+                    <li><span>Aktuell kein Artikel auf der Liste!</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row-4">
+            <div class="buttons">
+                <button id="liste_aufraeumen">Liste aufräumen!</button>
+                <button id="liste_loeschen">Liste löschen!</button>
+            </div>
+        </div>
+
+        <div class="row-5">
+            <footer>
+                <p>(c) Covox</p>
+            </footer>
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,139 @@
+/* === Farben === */
+/* rgb(53, 147, 255) */
+/* rgb(224, 136, 21) */
+
+/* === Allgemeines CSS === */
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(224, 136, 21);
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+}
+
+/* === Header === */
+
+header {
+    background-color: black;
+}
+
+h1 {
+    font-size: 2rem;
+    color: white;
+/*     font-style: italic; */
+    padding: 4% 4%;
+    margin: 0;
+}
+
+/* === Eingabeleiste ===*/
+
+#eingabeleiste {
+    margin: 4% 4% 4% 4%;
+    width: 92%;
+}
+
+#eingabe_produkt {
+    font-size: 1.2rem;
+    width: 40%;
+}
+
+#eingabe_menge {
+    font-size: 1.2rem;
+    width: 9%;   
+}
+
+#eingabe_einheit {
+    font-size: 1.2rem;
+    width: 16%;
+    padding: 0px 2px 1px 2px;
+}
+
+#eingabe_button {
+    font-size: 1.2rem;
+    width: 28%;
+    padding: 1px 2px;
+    float: right;
+}
+
+/* === Einkaufsliste === */
+
+.einkaufsliste {
+    font-size: 1.5rem;
+    margin: 0% 4%;
+    border: 1px solid black;
+}
+
+ul {
+    list-style: none;
+    margin: 4% 4%;
+    padding: 0;
+
+}
+
+.inaktiv {
+    text-decoration: line-through;
+}
+
+.ausgabe_menge {
+    float: right;
+    padding-right: 4%;
+}
+
+/* === Buttons === */
+
+.buttons {
+    margin: 4% 4% 4% 4%;
+    width: 92%;
+}
+
+#liste_aufraeumen {
+    font-size: 1.2rem;
+    width: 46%;
+    float: left;
+}
+
+#liste_loeschen {
+    font-size: 1.2rem;
+    width: 46%;
+    float: right;
+}
+
+/* === Footer === */
+
+footer {
+    font-size: 1.5rem;
+    color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    background-color: black;
+}
+
+/* === Table === */
+
+.row-1,
+.row-2,
+.row-3,
+.row-4,
+.row-5 {
+    display: table-row;
+}
+
+.row-4 {
+    display: table-row;
+    height: 100%;
+    font-size: 1.5rem;
+}
