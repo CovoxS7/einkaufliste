@@ -46,23 +46,23 @@ h1 {
 }
 
 #eingabe_produkt {
-    font-size: 1.2rem;
+    font-size: 1rem;
     width: 40%;
 }
 
 #eingabe_menge {
-    font-size: 1.2rem;
+    font-size: 1rem;
     width: 9%;   
 }
 
 #eingabe_einheit {
-    font-size: 1.2rem;
+    font-size: 1rem;
     width: 16%;
     padding: 0px 2px 1px 2px;
 }
 
 #eingabe_button {
-    font-size: 1.2rem;
+    font-size: 1rem;
     width: 28%;
     padding: 1px 2px;
     float: right;
@@ -100,13 +100,13 @@ ul {
 }
 
 #liste_aufraeumen {
-    font-size: 1.2rem;
+    font-size: 1rem;
     width: 46%;
     float: left;
 }
 
 #liste_loeschen {
-    font-size: 1.2rem;
+    font-size: 1rem;
     width: 46%;
     float: right;
 }
